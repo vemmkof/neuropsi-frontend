@@ -13,25 +13,7 @@ export default new Vuex.Store({
     getField
   },
   mutations: {
-    updateField,
-    setError (state, payload) {
-      state.errorTitle = payload.errorType
-      state.errorMessage = payload.errorMessage
-      state.errorDialog = true
-    },
-    setSuccess (state, payload) {
-      state.successTitle = payload.successType
-      state.successMessage = payload.successMessage
-      state.successDialog = true
-    },
-    login (state, payload) {
-      state.login = payload
-    }
-  },
-  actions: {
-    login ({ commit }, payload) {
-      commit('login', payload)
-    }
+    updateField
   },
   modules: {}
 })

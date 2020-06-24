@@ -1,6 +1,6 @@
 const roles = {
-  admin: 'ROLE_ADMIN',
-  specialist: 'ROLE_SPECIALIST',
-  patient: 'ROLE_PATIENT'
+  admin: 'ADMINISTRATOR',
+  specialist: 'SPECIALIST',
+  patient: 'PATIENT'
 }
 export { roles }
